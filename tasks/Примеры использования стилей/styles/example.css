@@ -1,0 +1,16 @@
+
+div{
+	font-size:30pt;
+}
+div img{
+	float:left;
+	width:60px;
+	height:60px;
+}
+.illustration img{
+	width:300px;
+	height:214px;
+	border: 3px solid black;
+	padding:10px;
+	margin:10px;
+}
