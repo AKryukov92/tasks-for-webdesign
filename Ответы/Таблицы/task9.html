@@ -1,0 +1,53 @@
+<html>
+	<head>
+	<style>
+		td {
+			border:1px solid black;
+			width:50px;
+			height:50px;
+		}
+		td[rowspan="2"]{
+			border:5px solid green;
+		}
+		td[colspan="2"]{
+			background-color:red;
+		}
+		td[rowspan="3"]{
+			border:5px solid blue;
+		}
+		td[colspan="3"]{
+			background-color:yellow;
+		}
+	</style>
+	</head>
+	<body>
+	<table>
+		<tr>
+			<td rowspan="2"></td>
+			<td colspan="2"></td>
+			<td rowspan="3"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="2" rowspan="2"></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td colspan="3"></td>
+			<td></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+			<td></td>
+		</tr>
+	</table>
+	</body>
+</html>
