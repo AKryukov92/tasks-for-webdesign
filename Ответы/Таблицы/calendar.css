@@ -1,0 +1,47 @@
+h3 {
+	float:left;
+}
+h5 {
+	float:left;
+	margin-left:20px;
+}
+
+table {
+	clear:both;
+	border-collapse: collapse;
+}
+
+th {
+	font-size: 6pt;
+}
+
+td {
+	font-weight:bold;
+	text-align:center;
+	font-size:20px;
+	border-bottom:1px solid black;
+}
+thead tr:first-of-type th {
+	font-weight:bold;
+}
+thead tr th {
+	font-weight:normal;
+}
+
+td:first-of-type {
+	color:gray;
+	font-size:14px;
+}
+
+.holiday,
+ th:nth-of-type(7),
+ th:nth-of-type(8),
+ td:nth-of-type(7),
+ td:nth-of-type(8) {
+	color:red;
+}
+
+.prev, .next {
+	font-weight:normal;
+	font-size:12px;
+}
