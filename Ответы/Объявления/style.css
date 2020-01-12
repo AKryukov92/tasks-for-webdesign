@@ -1,0 +1,50 @@
+body {
+  font-size: 16px;
+  line-height: 26px;
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  background: #ffffff no-repeat top center;
+}
+
+.advertisement {
+  background: white no-repeat top center;
+  border: 2px solid black;
+  margin: 10px 20px;  
+  padding: 10px auto;
+  width: 400px;
+}
+
+.z {
+  background: #6283CA no-repeat top center;
+  
+  color: white;
+}
+
+.zp {
+  font-size: 40px;
+}
+
+header, footer {
+  margin: 0 auto;
+  padding: 5px;
+  width: 80%;
+  border: 2px solid black;
+  background: #A7BBE6 no-repeat top center;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+h2 {
+  
+}
+
+p {
+  margin: 0;
+  padding: 5px;
+}
+
+section {
+
+}
