@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<style>
+h2 {
+	padding-left:20px;
+}
+ul {
+    border-bottom:2px solid black;
+	height:42px;
+}
+li {
+    display:block;
+	float:left;
+	border-radius:10px 10px 0px 0px;
+	border:2px solid black;
+	border-bottom-width:0px;
+	padding:5px;
+	margin-top:10px;
+	height:20px;
+}
+li:target {
+	border-bottom:2px solid white;
+	margin-bottom:-2px;
+}
+li:not(:target){
+	background-color:lightgrey;
+}
+div {
+	clear:both;
+	padding:20px;
+}
+li:target a {
+    text-decoration:none;
+}
+li:hover:not(:target) {
+	height:25px;
+	margin-top:0px;
+	padding-top:15px;
+	padding-bottom:0px;
+}
+		</style>
+	</head>
+	<body>
+	<h2>Главная страница</h2>
+	<ul>
+		<li id="main"><a href="#main">Главная</a></li>
+		<li id="about"><a href="#about">О нас</a></li>
+		<li id="services"><a href="#services">Услуги</a></li>
+		<li id="portfolio"><a href="#portfolio">Портфолио</a></li>
+		<li id="contacts"><a href="#contacts">Контакты</a></li>
+	</ul>
+	<div>
+	Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+	</div>
+	</body>
+</html>
